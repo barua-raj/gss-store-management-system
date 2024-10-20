@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #1e90ff;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Home Icon */
+.home-icon {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Header Title (Centered Text) */
+header h1 {
+    font-size: 28px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+/* Profile Section (Top-Right Corner) */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile span {
+    font-size: 16px;
+}
+
+.logout-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #e60000;
+}
+
+/* Dashboard Section */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.menu-item h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Button Styling - Smaller Size */
+.menu-item button {
+    width: 80%;
+    max-width: 140px;
+    height: 40px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px auto;
+}
+
+.menu-item button:hover {
+    background-color: #45a049;
+}
+
+/* Icon Styling */
+.menu-item h2 i {
+    font-size: 28px;
+}
